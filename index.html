@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RECONN - Vinh danh & Đề xuất cải tiến</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f0f4f8;
+      padding: 10px;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    header img {
+      width: 100px;
+      height: auto;
+    }
+
+    h1 {
+      color: #007acc;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+
+    .section-title {
+      margin: 20px 0 10px;
+      font-size: 20px;
+      color: #005b99;
+      font-weight: bold;
+    }
+
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 10px;
+      padding: 10px 0;
+    }
+
+    .card {
+      flex: 0 0 80%;
+      scroll-snap-align: center;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      min-width: 300px;
+    }
+
+    .card h3 {
+      color: #007acc;
+      margin-bottom: 5px;
+    }
+
+    .card p {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .buttons a {
+      display: block;
+      text-align: center;
+      padding: 12px;
+      border-radius: 8px;
+      background-color: #007acc;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .buttons a:hover {
+      background-color: #005b99;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #777;
+    }
+
+    @media (min-width: 768px) {
+      .card {
+        min-width: 400px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="Capture.PNG" alt="Logo RECONN" />
+    <h1>RECONN - 審連科技</h1>
+  </header>
+
+  <div class="section-title">🎉 Vinh danh 3 nhân viên xuất sắc tháng</div>
+  <div class="carousel">
+    <div class="card">
+      <h3>Nguyễn Văn A</h3>
+      <p>Điểm: 98<br />Đề xuất: Tự động hóa quy trình kiểm tra</p>
+    </div>
+    <div class="card">
+      <h3>Trần Thị B</h3>
+      <p>Điểm: 95<br />Đề xuất: Tối ưu hoá năng lượng máy</p>
+    </div>
+    <div class="card">
+      <h3>Lê Văn C</h3>
+      <p>Điểm: 93<br />Đề xuất: Cải tiến layout nhà xưởng</p>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <a href="https://docs.google.com/spreadsheets/d/1e0oYj3YfRiMXNRwL-BKW666a57TYmlDkqzigEJt7og8/edit?usp=sharing" target="_blank">
+      📋 Xem danh sách trạng thái đề xuất tháng này
+    </a>
+    <a href="https://forms.gle/bEoWymW2LpLR5imk6" target="_blank">
+      ✍️ Tham gia đề xuất cải tiến
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 RECONN 審連科技. All rights reserved.
+  </footer>
+</body>
+
+</html>
